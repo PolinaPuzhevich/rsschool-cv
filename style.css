@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Light.ttf");
+  }
+  body {
+    font-family: 'Roboto';
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 1.5;
+    color:rgb(46, 45, 45)
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .header {
+    border: 2px solid rgb(133, 96, 47);
+    background-color: rgb(156, 91, 5);
+    color: white;
+  }
+  .main {
+    border: 2px none;
+    margin: 0 0 0 80px;
+  }
+  .footer {
+    border: 2px solid rgb(133, 96, 47);
+    background-color: rgb(156, 91, 5);
+    color: white;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #f3f6f7;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .nav-link:hover {
+    color: #00080a;
+  }
+  .boldcontact {
+    font-weight: bold;
+  }
+.agithub {
+  text-decoration: none;
+  color:black;
+}
+.agithub:hover {
+  color:rgb(20, 114, 114);
+}
+.contact {
+  list-style: none;
+}
+.skill {
+  list-style: circle;
+}
+.liexperience {
+  list-style: circle;
+}
+.lilang {
+  list-style: circle;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.section-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color:rgb(156, 91, 5)
+}
+.container.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
