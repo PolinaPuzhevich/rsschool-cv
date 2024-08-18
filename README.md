@@ -1,2 +1,3 @@
-https://PolinaPuzhevich.github.io/rsschool-cv/cv
+rsschool-cv-html
 https://PolinaPuzhevich.github.io/rsschool-cv/
+
