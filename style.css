@@ -12,7 +12,7 @@
     justify-content: space-between;
     font-size: 18px;
     line-height: 1.5;
-    color:rgb(46, 45, 45)
+    color:rgb(46, 45, 45);
   }
   * {
     box-sizing: border-box;
@@ -21,20 +21,22 @@
     border: 2px solid rgb(133, 96, 47);
     background-color: rgb(156, 91, 5);
     color: white;
+    padding: 0 100px 0 100px;
   }
   .main {
     border: 2px none;
-    margin: 0 0 0 80px;
+    margin: 0 100px 0 100px;
   }
   .footer {
     border: 2px solid rgb(133, 96, 47);
     background-color: rgb(156, 91, 5);
     color: white;
+    padding: 0 100px 0 100px;
   }
   .container {
     max-width: 1440px;
     margin: 0 auto;
-  }
+    }
   .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -60,7 +62,7 @@
   }
 .agithub {
   text-decoration: none;
-  color:black;
+  color:rgb(46, 45, 45);
 }
 .agithub:hover {
   color:rgb(20, 114, 114);
@@ -82,7 +84,7 @@
   flex-wrap: wrap;
 }
 .section {
-  width: 50%;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .section {
@@ -90,7 +92,7 @@
   }
 }
 .section-title {
-  font-size: 20px;
+  font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 4px;
   color:rgb(156, 91, 5)
@@ -99,4 +101,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.link {
+  text-decoration: none;
+  color:rgb(46, 45, 45);
+}
+.projects-list {
+  list-style: none;
+}
+#profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.profile-img {
+  margin-left: 250px;
 }
